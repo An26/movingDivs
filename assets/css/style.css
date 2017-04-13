@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+h1 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 41px;
+}
+
+.banner {
+    font-family: 'Pacifico', cursive;
+    height: 400px;
+    background-image: url("../imgs/lemons.png");
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.banner .slogan {
+    position: absolute;
+    border: 5px solid black;
+    top: 200px;
+    left: 25%;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.banner .slogan span {
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.container .icon {
+    width: 96%;
+    height: 960px;
+    display: inline-block;
+    margin: 2%;
+    border: 5px solid black;
+    font-size: 32px;
+    color: white;
+}
+
+
+.container .zero {
+    height: 500px;
+    color: black;
+}
+
+.container .zero img {
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+    position :relative;
+}
+
+.container .one {
+    background-image: url(../imgs/lemonwoodcart.jpg);
+    background-size: cover;
+
+}
+
+.container .two {
+    background-image: url(../imgs/lemontree.jpg);
+    background-size: cover;
+}
+
+.container .three {
+    background-image: url(../imgs/lemonbowl.jpg);
+    background-size: cover;
+}
+
+@keyframes mymove {
+    from   {top: 0px;}
+    to {top: 100px;}
+}
